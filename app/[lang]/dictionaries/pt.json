@@ -1,0 +1,694 @@
+{
+  "meta": {
+    "site": {
+      "title": "Radarscape Moçambique — Engenharia, Construção e Execução de Infraestruturas",
+      "description": "A Radarscape Mozambique Limitada é um parceiro moçambicano de engenharia, construção e execução de infraestruturas para os sectores de Petróleo e Gás, energia e infraestruturas estratégicas — assente em disciplina de execução, alinhamento HSEQ e controlo comercial."
+    },
+    "pages": {
+      "home": {
+        "title": "O parceiro de execução de confiança em Moçambique",
+        "description": "Engenharia, construção e execução de infraestruturas em Moçambique — concebidas para fiabilidade, rapidez, segurança e disciplina comercial, com exposição relevante ao corredor de GNL de Afungi."
+      },
+      "about": {
+        "title": "Sobre a Radarscape",
+        "description": "Uma empresa moçambicana de engenharia, construção e execução de infraestruturas assente em disciplina de execução, alinhamento HSEQ e profundidade técnica apoiada pelo grupo."
+      },
+      "capabilities": {
+        "title": "Competências Centrais",
+        "description": "Competências focadas na execução que abrangem engenharia e construção, conceção-construção, energia e eletricidade, água e serviços essenciais, manutenção, tecnologia e garantia HSEQ."
+      },
+      "technology": {
+        "title": "Tecnologia, Sistemas e Controlo",
+        "description": "Sistemas de projeto modernos e controlos digitais — coordenação BIM e controlo de custos com o CCS Candy — para qualidade de planeamento, visibilidade de custos e certeza de execução."
+      },
+      "hseq": {
+        "title": "HSEQ e Garantia de Conformidade",
+        "description": "Uma abordagem de execução ancorada numa forte disciplina HSEQ e no alinhamento com os requisitos do cliente, regulamentares e de projetos internacionais."
+      },
+      "projects": {
+        "title": "Experiência de Projetos Relevante",
+        "description": "Experiência de projetos com mobilização e execução em ambientes remotos, sensíveis à conformidade e operacionalmente exigentes em Moçambique."
+      },
+      "deliveryModel": {
+        "title": "Modelo de Execução e Força do Grupo",
+        "description": "Um modelo de execução flexível e habilitado por parcerias, apoiado pela profundidade do grupo, competências transfronteiriças e capacidade de execução adicional."
+      },
+      "whyRadarscape": {
+        "title": "Porquê a Radarscape",
+        "description": "Exposição relevante ao Petróleo e Gás, forte presença local, um modelo comercial flexível e uma profundidade técnica interna crescente — um parceiro de execução local credível em Moçambique."
+      },
+      "contact": {
+        "title": "Contactar a Radarscape",
+        "description": "Fale com a Radarscape sobre concursos, parcerias de subcontratação, adjudicações diretas e colaboração estratégica em projetos por todo Moçambique."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Saltar para o conteúdo",
+    "breadcrumb": "Trilho de navegação"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "capabilities": "Competências",
+    "technology": "Tecnologia, Sistemas e Controlo",
+    "hseq": "HSEQ e Garantia de Conformidade",
+    "projects": "Projetos",
+    "deliveryModel": "Modelo de Execução e Força do Grupo",
+    "whyRadarscape": "Porquê a Radarscape",
+    "contact": "Contacto"
+  },
+  "header": {
+    "contactCta": "Contacte-nos",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "homeLabel": "Radarscape — início",
+    "localeLabel": "Mudar de idioma",
+    "menuTitle": "Menu",
+    "navShort": {
+      "deliveryModel": "Modelo de Execução"
+    }
+  },
+  "footer": {
+    "tagline": "Um parceiro moçambicano de engenharia, construção e execução de infraestruturas para os sectores de Petróleo e Gás, energia e infraestruturas estratégicas.",
+    "companyTitle": "Empresa",
+    "quickLinksTitle": "Ligações rápidas",
+    "capabilitiesTitle": "Competências",
+    "capabilityLinks": [
+      {
+        "label": "Engenharia e Construção",
+        "href": "/capabilities#engineering"
+      },
+      {
+        "label": "Energia e Eletricidade",
+        "href": "/capabilities#energy"
+      },
+      {
+        "label": "Água e Serviços Essenciais",
+        "href": "/capabilities#water"
+      },
+      {
+        "label": "Manutenção e Instalações",
+        "href": "/capabilities#maintenance"
+      },
+      {
+        "label": "Tecnologia, Sistemas e Controlo",
+        "href": "/capabilities/technology"
+      },
+      {
+        "label": "HSEQ e Garantia de Conformidade",
+        "href": "/capabilities/hseq"
+      }
+    ],
+    "legalLine": "Radarscape Mozambique Limitada — Alvará Classe 7 | Maputo, Moçambique",
+    "rights": "Todos os direitos reservados.",
+    "credit": "Empresa-mãe: Macefield Ventures Mozambique Limitada."
+  },
+  "common": {
+    "cta": {
+      "viewCapabilities": "Ver as nossas competências",
+      "talkToUs": "Fale connosco",
+      "learnMoreAboutUs": "Saiba mais sobre nós",
+      "seeAllCapabilities": "Ver todas as competências",
+      "viewProjectExperience": "Ver a nossa experiência de projetos",
+      "contactUs": "Contacte-nos",
+      "discussProject": "Fale connosco sobre o seu projeto",
+      "seeHowWeDeliver": "Veja como executamos",
+      "seeStrategicAdvantage": "Ver a nossa vantagem estratégica",
+      "partnerWithUs": "Estabeleça parceria com a Radarscape",
+      "buildWithConfidence": "Construa com confiança — contacte-nos",
+      "backToCapabilities": "Voltar às competências",
+      "seeInAction": "Veja esta competência em ação"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Radarscape Mozambique Limitada",
+      "title": "O parceiro de execução de confiança em Moçambique para Petróleo e Gás, energia e infraestruturas",
+      "subtitle": "Engenharia, construção e execução de infraestruturas — concebidas para fiabilidade, rapidez, segurança e disciplina comercial.",
+      "primaryCta": "Ver as nossas competências",
+      "secondaryCta": "Fale connosco",
+      "scrollHint": "Deslize para explorar"
+    },
+    "stats": [
+      {
+        "value": "Fund. 2021",
+        "label": "Fundada em Moçambique"
+      },
+      {
+        "value": "Operacional desde 2022",
+        "label": "Historial de execução ativo"
+      },
+      {
+        "value": "Cabo Delgado",
+        "label": "Zona operacional central — corredor de GNL de Afungi"
+      },
+      {
+        "value": "Alvará Classe 7",
+        "label": "Licenciada para obras de construção e engenharia"
+      }
+    ],
+    "intro": {
+      "eyebrow": "Quem somos",
+      "title": "Um parceiro local credível para execução complexa",
+      "body": "A Radarscape Mozambique Limitada é um parceiro moçambicano de engenharia e construção posicionado para ajudar os clientes a executar projetos complexos com fiabilidade, rapidez, segurança, qualidade e disciplina comercial. Com exposição operacional comprovada no corredor de GNL de Afungi, uma forte presença no mercado local e acesso à capacidade alargada do grupo, a Radarscape é uma escolha de confiança para clientes que procuram um parceiro local credível para a execução em Petróleo e Gás, indústria, energia e infraestruturas estratégicas.",
+      "cta": "Saiba mais sobre nós"
+    },
+    "why": {
+      "eyebrow": "Porquê escolher a Radarscape",
+      "title": "Força local, confiança do cliente, apoio escalável",
+      "items": [
+        {
+          "icon": "location",
+          "title": "Força de execução local",
+          "body": "Forte capacidade no terreno em Moçambique, incluindo experiência em ambientes operacionais ligados ao GNL."
+        },
+        {
+          "icon": "hseq",
+          "title": "Confiança do cliente",
+          "body": "Forte alinhamento HSEQ, execução disciplinada e controlo comercial prático."
+        },
+        {
+          "icon": "delivery",
+          "title": "Apoio escalável e valor estratégico",
+          "body": "Capacidade apoiada pelo grupo, execução orientada por parcerias, participação em conteúdo local, agilidade de execução e desempenho fiável dos projetos."
+        }
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "Competências",
+      "title": "Competências focadas na execução, de ponta a ponta",
+      "intro": "Do planeamento do projeto à construção, execução de infraestruturas, serviços essenciais, apoio ao comissionamento e manutenção contínua.",
+      "items": [
+        {
+          "key": "engineering",
+          "icon": "engineering",
+          "title": "Engenharia, Construção Civil e Industrial"
+        },
+        {
+          "key": "designBuild",
+          "icon": "designBuild",
+          "title": "Conceção-Construção e Execução Chave-na-Mão"
+        },
+        {
+          "key": "energy",
+          "icon": "energy",
+          "title": "Energia, Eletricidade e Infraestruturas Elétricas"
+        },
+        {
+          "key": "water",
+          "icon": "water",
+          "title": "Água, Serviços e Infraestruturas Essenciais"
+        },
+        {
+          "key": "maintenance",
+          "icon": "maintenance",
+          "title": "Manutenção, Instalações e Apoio Operacional"
+        }
+      ],
+      "cta": "Ver todas as competências"
+    },
+    "projects": {
+      "eyebrow": "Projetos em destaque",
+      "title": "Executados em ambientes exigentes",
+      "intro": "Experiência selecionada em Moçambique em âmbitos civis, estruturais, elétricos e rodoviários.",
+      "items": [
+        {
+          "name": "Obras de melhoria do estaleiro de Afungi",
+          "caption": "Trabalhos de estrutura e serralharia dentro do ecossistema operacional de GNL de Afungi."
+        },
+        {
+          "name": "Central solar fotovoltaica de 5 MW, Afungi",
+          "caption": "Instalação de uma central solar fotovoltaica de 5 MW de apoio à energia do estaleiro."
+        },
+        {
+          "name": "Estrada do mercado de peixe de Palma",
+          "caption": "Construção da infraestrutura de acesso rodoviário ao mercado de peixe de Palma."
+        }
+      ],
+      "cta": "Ver a nossa experiência de projetos"
+    },
+    "advantage": {
+      "eyebrow": "Vantagem estratégica",
+      "title": "Concebida para ambientes exigentes e de elevada conformidade",
+      "items": [
+        "Exposição relevante ao Petróleo e Gás no ecossistema operacional de GNL de Afungi.",
+        "Forte presença local apoiada por capacidade escalável do grupo e de parceiros.",
+        "Um compromisso com o conteúdo local e a presença de longo prazo no mercado moçambicano."
+      ],
+      "cta": "Construa com confiança — contacte-nos"
+    },
+    "closing": {
+      "eyebrow": "Vamos construir com confiança",
+      "title": "Prontos para apoiar ambientes de projeto exigentes",
+      "body": "A Radarscape está pronta para apoiar clientes que procuram um parceiro local credível, com disciplina de execução, apoio de execução escalável e uma forte adequação a ambientes de projeto exigentes e de elevada conformidade. Damos as boas-vindas a oportunidades de participação em concursos, parcerias de subcontratação, adjudicações diretas e colaboração estratégica em projetos por todo Moçambique.",
+      "cta": "Contacte-nos"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Sobre nós",
+      "title": "Sobre a Radarscape",
+      "subtitle": "Uma empresa moçambicana de engenharia, construção e execução de infraestruturas assente em disciplina de execução."
+    },
+    "snapshot": {
+      "title": "Retrato da empresa",
+      "body": [
+        "A Radarscape Mozambique Limitada é uma empresa moçambicana de engenharia, construção e execução de infraestruturas ao serviço de clientes nos ambientes de Petróleo e Gás, energia, indústria e infraestruturas estratégicas. Entregamos soluções práticas e focadas na execução que ajudam os clientes a concluir projetos críticos com segurança, no prazo e com forte controlo comercial.",
+        "Constituída em setembro de 2021 e operacional desde 2022, a empresa construiu rapidamente uma presença de execução credível em Cabo Delgado, com experiência em ambientes de projeto exigentes ligados ao ecossistema da TotalEnergies Mozambique LNG Área 1. Isto confere à Radarscape uma exposição relevante aos padrões, à capacidade de resposta e à disciplina de execução esperados em projetos de alta especificação.",
+        "A Radarscape combina acesso ao mercado local, agilidade de execução e profundidade técnica apoiada pelo grupo. Apoiada pela sua empresa-mãe, a Macefield Ventures Mozambique Limitada, e por competências afiliadas de empresas regionais consolidadas, a empresa oferece aos clientes uma forte combinação de participação local, capacidade de execução escalável e padrões internacionais de projeto."
+      ]
+    },
+    "corporate": {
+      "title": "Retrato corporativo",
+      "rows": [
+        {
+          "item": "Nome da empresa",
+          "value": "Radarscape Mozambique Limitada"
+        },
+        {
+          "item": "Ano de constituição",
+          "value": "2021"
+        },
+        {
+          "item": "Registo",
+          "value": "Moçambique"
+        },
+        {
+          "item": "Licença",
+          "value": "Alvará Classe 7"
+        },
+        {
+          "item": "Sede",
+          "value": "Maputo, Moçambique"
+        },
+        {
+          "item": "Zona operacional central",
+          "value": "Cabo Delgado (corredor de GNL de Afungi)"
+        },
+        {
+          "item": "Empresa-mãe",
+          "value": "Macefield Ventures Mozambique Limitada"
+        }
+      ]
+    },
+    "visionMission": {
+      "visionLabel": "Visão",
+      "vision": "Ser o parceiro de infraestruturas de Petróleo e Gás mais confiável e inovador de Moçambique.",
+      "missionLabel": "Missão",
+      "mission": "Gerar valor através de parcerias sólidas, execução eficiente e soluções práticas."
+    },
+    "values": {
+      "eyebrow": "Valores fundamentais",
+      "title": "Aquilo a que nos obrigamos",
+      "items": [
+        {
+          "icon": "safety",
+          "title": "Execução com a segurança em primeiro lugar"
+        },
+        {
+          "icon": "integrity",
+          "title": "Integridade e responsabilização"
+        },
+        {
+          "icon": "client",
+          "title": "Execução focada no cliente"
+        },
+        {
+          "icon": "excellence",
+          "title": "Excelência operacional"
+        },
+        {
+          "icon": "innovation",
+          "title": "Inovação e melhoria contínua"
+        },
+        {
+          "icon": "sustainability",
+          "title": "Impacto local sustentável"
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Liderança, equipa e apoio à execução",
+      "title": "Uma equipa de execução multidisciplinar",
+      "body": "O nosso modelo de execução é apoiado por uma equipa multidisciplinar capaz de gerir a coordenação técnica, o controlo comercial, o aprovisionamento, o HSEQ e a execução no estaleiro em diversos âmbitos de projeto.",
+      "roles": [
+        "Engenheiros e gestores de projeto",
+        "Orçamentistas e especialistas de HSE",
+        "Profissionais de comercial, aprovisionamento e logística"
+      ],
+      "reinforcedByTitle": "Reforçado por",
+      "reinforcedBy": [
+        "Apoio ao nível do grupo em gestão jurídica, comercial, fiscal e contratual",
+        "Um modelo de recursos humanos flexível que se ajusta à procura do projeto"
+      ],
+      "cta": "Veja como executamos"
+    }
+  },
+  "capabilities": {
+    "hero": {
+      "eyebrow": "Competências",
+      "title": "Competências Centrais",
+      "subtitle": "Competências de elevado valor e focadas na execução que apoiam os clientes desde o planeamento do projeto até à construção, execução de infraestruturas, serviços essenciais, apoio ao comissionamento e manutenção contínua."
+    },
+    "cards": [
+      {
+        "key": "engineering",
+        "anchor": "engineering",
+        "icon": "engineering",
+        "title": "Engenharia, Construção Civil e Industrial",
+        "points": [
+          "Construção civil, estrutural e de infraestruturas",
+          "Trabalhos de instalação mecânica e elétrica",
+          "Obras rodoviárias, preparação de terrenos e movimentação de terras",
+          "Edifícios industriais, instalações operacionais e infraestruturas de apoio"
+        ]
+      },
+      {
+        "key": "designBuild",
+        "anchor": "design-build",
+        "icon": "designBuild",
+        "title": "Conceção-Construção e Execução Chave-na-Mão",
+        "points": [
+          "Desenvolvimento de conceito e apoio de engenharia de detalhe",
+          "Coordenação integrada da conceção do projeto",
+          "Execução chave-na-mão para âmbitos de projeto selecionados"
+        ]
+      },
+      {
+        "key": "energy",
+        "anchor": "energy",
+        "icon": "energy",
+        "title": "Energia, Eletricidade e Infraestruturas Elétricas",
+        "points": [
+          "Sistemas elétricos de baixa e média tensão",
+          "Infraestruturas de energia solar e renovável",
+          "Subestações e trabalhos elétricos associados"
+        ]
+      },
+      {
+        "key": "water",
+        "anchor": "water",
+        "icon": "water",
+        "title": "Água, Serviços e Infraestruturas Essenciais",
+        "points": [
+          "Sistemas de tratamento, distribuição em rede e abastecimento de água",
+          "Infraestruturas de águas residuais e de serviços de apoio"
+        ]
+      },
+      {
+        "key": "maintenance",
+        "anchor": "maintenance",
+        "icon": "maintenance",
+        "title": "Manutenção, Instalações e Apoio Operacional",
+        "points": [
+          "Serviços de manutenção civil, elétrica e de AVAC",
+          "Apoio a instalações industriais e comerciais",
+          "Equipas de manutenção com resposta rápida para ambientes de missão crítica"
+        ]
+      }
+    ],
+    "subnav": {
+      "title": "Garantia especializada",
+      "items": [
+        {
+          "key": "technology",
+          "icon": "technology",
+          "title": "Tecnologia, Sistemas e Controlo",
+          "blurb": "Sistemas de projeto modernos e controlos digitais para qualidade de planeamento e certeza de execução."
+        },
+        {
+          "key": "hseq",
+          "icon": "hseq",
+          "title": "HSEQ e Garantia de Conformidade",
+          "blurb": "Concebida para operar em ambientes de elevada conformidade e elevada consequência."
+        }
+      ]
+    },
+    "cta": "Veja esta competência em ação — veja os nossos projetos"
+  },
+  "technology": {
+    "hero": {
+      "eyebrow": "Competências",
+      "title": "Tecnologia, Sistemas e Controlo",
+      "intro": "A Radarscape utiliza sistemas de projeto modernos e controlos digitais para melhorar a qualidade do planeamento, a visibilidade de custos, a coordenação e a certeza de execução."
+    },
+    "items": [
+      {
+        "icon": "projects",
+        "title": "Modelação da Informação da Construção (BIM)",
+        "body": "Coordenação baseada em modelo que melhora a visibilidade da conceção, a deteção de conflitos e a construtibilidade entre disciplinas."
+      },
+      {
+        "icon": "document",
+        "title": "Orçamentação e controlo de custos digital — CCS Candy",
+        "body": "Um conjunto de software especializado, orientado para o empreiteiro, concebido para a orçamentação, o planeamento e o controlo de projetos de construção e engenharia."
+      }
+    ],
+    "benefitsTitle": "Benefícios para os clientes",
+    "benefits": [
+      "Maior coordenação do projeto e visibilidade da conceção",
+      "Melhor controlo de custos e menor exposição a retrabalho",
+      "Monitorização em tempo real melhorada para uma tomada de decisão atempada"
+    ]
+  },
+  "hseq": {
+    "hero": {
+      "eyebrow": "Competências",
+      "title": "HSEQ e Garantia de Conformidade",
+      "intro": "A Radarscape foi concebida para operar em ambientes de elevada conformidade e elevada consequência. A nossa abordagem de execução está ancorada numa forte disciplina HSEQ e no alinhamento com os requisitos do cliente, regulamentares e de projetos internacionais."
+    },
+    "pillars": [
+      {
+        "icon": "safety",
+        "title": "Gestão rigorosa de saúde e segurança"
+      },
+      {
+        "icon": "excellence",
+        "title": "Controlos de projeto focados na qualidade"
+      },
+      {
+        "icon": "sustainability",
+        "title": "Responsabilidade ambiental e práticas de trabalho sustentáveis"
+      }
+    ],
+    "forClientsTitle": "Para os clientes, isto significa",
+    "forClients": [
+      "Execução de projetos mais segura e menor risco de execução",
+      "Maior conformidade com os requisitos do estaleiro e regulamentares",
+      "Maior confiança na governação e no desempenho do projeto"
+    ]
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Projetos",
+      "title": "Experiência de Projetos Relevante",
+      "subtitle": "A nossa experiência de projetos demonstra a capacidade de mobilizar, executar e entregar em ambientes remotos, sensíveis à conformidade e operacionalmente exigentes."
+    },
+    "items": [
+      {
+        "name": "Reabilitação de infraestruturas habitacionais — Quitunda, Palma",
+        "caption": "Reabilitação de infraestruturas habitacionais na zona de reassentamento de Quitunda.",
+        "tags": [
+          "Civil",
+          "Edifícios"
+        ]
+      },
+      {
+        "name": "Obras de melhoria do estaleiro de Afungi",
+        "caption": "Obras de melhoria do estaleiro, incluindo trabalhos de estrutura e serralharia.",
+        "tags": [
+          "Civil",
+          "Estrutural"
+        ]
+      },
+      {
+        "name": "Estrada do mercado de peixe de Palma",
+        "caption": "Construção da estrada de acesso ao mercado de peixe de Palma.",
+        "tags": [
+          "Obras rodoviárias",
+          "Civil"
+        ]
+      },
+      {
+        "name": "Aquartelamento e infraestruturas de segurança",
+        "caption": "Construção de aquartelamento e infraestruturas de segurança.",
+        "tags": [
+          "Edifícios",
+          "Civil"
+        ]
+      },
+      {
+        "name": "Central solar fotovoltaica de 5 MW — Afungi",
+        "caption": "Instalação de uma central solar fotovoltaica de 5 MW.",
+        "tags": [
+          "Elétrica",
+          "Energia"
+        ]
+      },
+      {
+        "name": "Ampliação da pista de aterragem de Afungi",
+        "caption": "Obras de ampliação da pista de aterragem na zona operacional de Afungi.",
+        "tags": [
+          "Movimentação de terras",
+          "Civil"
+        ]
+      }
+    ],
+    "demonstrates": {
+      "title": "O que esta experiência demonstra",
+      "points": [
+        "Operar sob rigorosas expectativas de HSEQ e de conformidade do cliente",
+        "Desempenhar em ambientes de projeto remotos e ligados ao GNL",
+        "Gerir âmbitos multidisciplinares com disciplina de execução",
+        "Apoiar a entrega de conteúdo local com capacidade prática no terreno"
+      ]
+    },
+    "cta": "Fale connosco sobre o seu projeto"
+  },
+  "deliveryModel": {
+    "hero": {
+      "eyebrow": "Modelo de execução",
+      "title": "Modelo de Execução e Força do Grupo",
+      "subtitle": "Um modelo de execução flexível e habilitado por parcerias, concebido para ajudar os clientes a executar âmbitos complexos com o equilíbrio certo entre presença local, apoio técnico e controlo comercial."
+    },
+    "groupStrength": {
+      "eyebrow": "Plataforma de execução e força do grupo",
+      "title": "Maior profundidade através do ecossistema do grupo",
+      "body": "Através do seu ecossistema de grupo mais alargado — incluindo empreiteiros regionais afiliados e empresas técnicas — a Radarscape beneficia de maior profundidade de execução, competências transfronteiriças e capacidade de execução adicional em projetos de engenharia e infraestruturas.",
+      "points": [
+        "Projetos industriais e comerciais de grande escala",
+        "Infraestruturas de energia e eletricidade",
+        "Obras rodoviárias, civis e de desenvolvimento urbano"
+      ],
+      "translatesToTitle": "Para os clientes, isto traduz-se em",
+      "translatesTo": [
+        "Maior profundidade técnica e apoio de engenharia",
+        "Maior capacidade de mobilização e execução de projetos",
+        "Acesso a competências especializadas mais amplas quando os projetos crescem"
+      ]
+    },
+    "model": {
+      "eyebrow": "Modelo de execução",
+      "title": "Execução habilitada por parcerias",
+      "body": "A Radarscape aplica um modelo de execução flexível e habilitado por parcerias, concebido para ajudar os clientes a executar âmbitos complexos com o equilíbrio certo entre presença local, apoio técnico e controlo comercial.",
+      "blocks": [
+        {
+          "icon": "delivery",
+          "title": "Acesso a projetos orientado por parcerias",
+          "points": [
+            "Colaboração com empreiteiros EPC e especializados consolidados",
+            "Acesso a oportunidades complexas de Petróleo e Gás e de infraestruturas",
+            "Partilha equilibrada de risco e maior eficiência de custos para os clientes"
+          ]
+        },
+        {
+          "icon": "compass",
+          "title": "Controlo de execução e estratégia de ativos",
+          "points": [
+            "Equipas de execução específicas do projeto alinhadas com o âmbito e o calendário",
+            "Estratégia de equipamento flexível que combina locação financeira, aluguer e propriedade seletiva",
+            "Controlo de custos disciplinado e utilização eficiente de equipamento e recursos"
+          ]
+        },
+        {
+          "icon": "growth",
+          "title": "Crescimento de competências e localização",
+          "points": [
+            "Expansão contínua em engenharia, execução e apoio ao comissionamento",
+            "Crescimento progressivo da capacidade de execução interna",
+            "Maior participação em conteúdo local e autonomia operacional de longo prazo"
+          ]
+        }
+      ]
+    },
+    "cta": "Ver a nossa vantagem estratégica"
+  },
+  "whyRadarscape": {
+    "hero": {
+      "eyebrow": "Porquê a Radarscape",
+      "title": "Um parceiro local credível com disciplina de execução",
+      "subtitle": "A Radarscape combina capacidade de resposta, disciplina de conformidade e capacidade de execução escalável para ambientes de projeto exigentes em Moçambique."
+    },
+    "advantages": [
+      "Exposição relevante ao Petróleo e Gás no ecossistema operacional de GNL de Afungi",
+      "Forte presença local apoiada por capacidade escalável do grupo e de parceiros",
+      "Modelo comercial flexível que apoia uma execução rentável",
+      "Agilidade de execução em ambientes desafiantes e remotos",
+      "Profundidade técnica interna crescente em engenharia e execução de projetos",
+      "Compromisso com o conteúdo local e a presença de longo prazo no mercado moçambicano"
+    ],
+    "marketPosition": {
+      "title": "Posição de mercado e estratégia de crescimento",
+      "body": "A Radarscape oferece uma forte proposta de valor a clientes que procuram um empreiteiro local capaz de combinar capacidade de resposta, disciplina de conformidade e capacidade de execução escalável em Moçambique.",
+      "focusTitle": "Áreas de foco",
+      "focusAreas": [
+        "Construção e infraestruturas de apoio de Petróleo e Gás",
+        "Execução de infraestruturas industriais e estratégicas",
+        "Execução de projetos ligados a energia e serviços públicos"
+      ],
+      "growthTitle": "A nossa estratégia de crescimento centra-se em",
+      "growth": [
+        "Conquistar trabalho de maior valor através de maior credibilidade de execução",
+        "Gerar mais valor através de melhor controlo de projeto e eficiência de recursos",
+        "Crescer para sectores adjacentes, alicerçados na nossa especialização em Petróleo e Gás",
+        "Construir parcerias de longo prazo com clientes e oportunidades de projeto recorrentes"
+      ]
+    },
+    "cta": "Estabeleça parceria com a Radarscape — contacte-nos"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Vamos construir com confiança",
+      "body": "A Radarscape está pronta para apoiar clientes que procuram um parceiro local credível, com disciplina de execução, apoio de execução escalável e uma forte adequação a ambientes de projeto exigentes e de elevada conformidade. Damos as boas-vindas a oportunidades de participação em concursos, parcerias de subcontratação, adjudicações diretas e colaboração estratégica em projetos por todo Moçambique."
+    },
+    "detailsTitle": "Dados de contacto",
+    "officeLabel": "Sede",
+    "phoneLabel": "Telefone",
+    "emailLabel": "Correio eletrónico",
+    "hoursLabel": "Horário de expediente",
+    "hoursValue": "Segunda a sexta-feira, 08:00–17:00 (CAT)",
+    "form": {
+      "title": "Envie-nos uma mensagem",
+      "note": "Os campos marcados com asterisco (*) são obrigatórios.",
+      "fields": {
+        "name": "Nome",
+        "company": "Empresa",
+        "email": "Correio eletrónico",
+        "phone": "Telefone",
+        "subject": "Assunto",
+        "message": "Mensagem"
+      },
+      "subjectPlaceholder": "Selecione um assunto",
+      "subjectOptions": [
+        {
+          "value": "tender",
+          "label": "Consulta sobre concurso"
+        },
+        {
+          "value": "subcontracting",
+          "label": "Parceria de subcontratação"
+        },
+        {
+          "value": "general",
+          "label": "Consulta geral"
+        },
+        {
+          "value": "other",
+          "label": "Outro"
+        }
+      ],
+      "submit": "Enviar mensagem",
+      "sending": "A enviar…",
+      "successTitle": "Obrigado — a sua mensagem foi recebida",
+      "successBody": "Um membro da equipa da Radarscape responderá à sua consulta em breve. Para assuntos urgentes, contacte diretamente a sede.",
+      "sendAnother": "Enviar outra mensagem",
+      "errorRequired": "Preencha este campo.",
+      "errorEmail": "Introduza um endereço de correio eletrónico válido.",
+      "errorGeneric": "Ocorreu um problema. Tente novamente ou contacte-nos diretamente por correio eletrónico."
+    },
+    "mapTitle": "Encontre-nos em Maputo",
+    "mapLinkLabel": "Abrir no mapa"
+  }
+}

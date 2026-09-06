@@ -1,0 +1,694 @@
+{
+  "meta": {
+    "site": {
+      "title": "Radarscape Mozambique — Engineering, Construction & Infrastructure Delivery",
+      "description": "Radarscape Mozambique Limitada is a Mozambican engineering, construction and infrastructure delivery partner for Oil & Gas, energy and strategic infrastructure — built on execution discipline, HSEQ alignment and commercial control."
+    },
+    "pages": {
+      "home": {
+        "title": "Mozambique's trusted execution partner",
+        "description": "Engineering, construction and infrastructure delivery in Mozambique — built for reliability, speed, safety and commercial discipline, with relevant exposure to the Afungi LNG corridor."
+      },
+      "about": {
+        "title": "About Radarscape",
+        "description": "A Mozambican engineering, construction and infrastructure delivery company built on execution discipline, HSEQ alignment and group-backed technical depth."
+      },
+      "capabilities": {
+        "title": "Core Capabilities",
+        "description": "Execution-focused capabilities spanning engineering and construction, design-build, energy and power, water and utilities, maintenance, technology and HSEQ assurance."
+      },
+      "technology": {
+        "title": "Technology, Systems & Controls",
+        "description": "Modern project systems and digital controls — BIM coordination and CCS Candy cost control — for planning quality, cost visibility and execution certainty."
+      },
+      "hseq": {
+        "title": "HSEQ & Compliance Assurance",
+        "description": "A delivery approach anchored in strong HSEQ discipline and alignment with client, regulatory and international project requirements."
+      },
+      "projects": {
+        "title": "Relevant Project Experience",
+        "description": "Project experience mobilising and delivering in remote, compliance-sensitive and operationally demanding environments across Mozambique."
+      },
+      "deliveryModel": {
+        "title": "Delivery Model & Group Strength",
+        "description": "A flexible, partnership-enabled execution model backed by group depth, cross-border expertise and additional delivery capacity."
+      },
+      "whyRadarscape": {
+        "title": "Why Radarscape",
+        "description": "Relevant Oil & Gas exposure, strong local presence, a flexible commercial model and growing in-house technical depth — a credible local delivery partner in Mozambique."
+      },
+      "contact": {
+        "title": "Contact Radarscape",
+        "description": "Talk to Radarscape about tenders, subcontracting partnerships, direct awards and strategic project collaboration across Mozambique."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "breadcrumb": "Breadcrumb"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "capabilities": "Capabilities",
+    "technology": "Technology, Systems & Controls",
+    "hseq": "HSEQ & Compliance Assurance",
+    "projects": "Projects",
+    "deliveryModel": "Delivery Model & Group Strength",
+    "whyRadarscape": "Why Radarscape",
+    "contact": "Contact"
+  },
+  "header": {
+    "contactCta": "Contact Us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "homeLabel": "Radarscape — home",
+    "localeLabel": "Change language",
+    "menuTitle": "Menu",
+    "navShort": {
+      "deliveryModel": "Delivery Model"
+    }
+  },
+  "footer": {
+    "tagline": "A Mozambican engineering, construction and infrastructure delivery partner for Oil & Gas, energy and strategic infrastructure.",
+    "companyTitle": "Company",
+    "quickLinksTitle": "Quick links",
+    "capabilitiesTitle": "Capabilities",
+    "capabilityLinks": [
+      {
+        "label": "Engineering & Construction",
+        "href": "/capabilities#engineering"
+      },
+      {
+        "label": "Energy & Power",
+        "href": "/capabilities#energy"
+      },
+      {
+        "label": "Water & Utilities",
+        "href": "/capabilities#water"
+      },
+      {
+        "label": "Maintenance & Facilities",
+        "href": "/capabilities#maintenance"
+      },
+      {
+        "label": "Technology, Systems & Controls",
+        "href": "/capabilities/technology"
+      },
+      {
+        "label": "HSEQ & Compliance Assurance",
+        "href": "/capabilities/hseq"
+      }
+    ],
+    "legalLine": "Radarscape Mozambique Limitada — Class 7 ALVARÁ | Maputo, Mozambique",
+    "rights": "All rights reserved.",
+    "credit": "Parent company: Macefield Ventures Mozambique Limitada."
+  },
+  "common": {
+    "cta": {
+      "viewCapabilities": "View our capabilities",
+      "talkToUs": "Talk to us",
+      "learnMoreAboutUs": "Learn more about us",
+      "seeAllCapabilities": "See all capabilities",
+      "viewProjectExperience": "View our project experience",
+      "contactUs": "Contact us",
+      "discussProject": "Discuss your project with us",
+      "seeHowWeDeliver": "See how we deliver",
+      "seeStrategicAdvantage": "See our strategic advantage",
+      "partnerWithUs": "Partner with Radarscape",
+      "buildWithConfidence": "Build with confidence — contact us",
+      "backToCapabilities": "Back to capabilities",
+      "seeInAction": "See this capability in action"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Radarscape Mozambique Limitada",
+      "title": "Mozambique's trusted execution partner for Oil & Gas, energy and infrastructure",
+      "subtitle": "Engineering, construction and infrastructure delivery — built for reliability, speed, safety and commercial discipline.",
+      "primaryCta": "View our capabilities",
+      "secondaryCta": "Talk to us",
+      "scrollHint": "Scroll to explore"
+    },
+    "stats": [
+      {
+        "value": "Est. 2021",
+        "label": "Founded in Mozambique"
+      },
+      {
+        "value": "Operational since 2022",
+        "label": "Active delivery track record"
+      },
+      {
+        "value": "Cabo Delgado",
+        "label": "Core operating area — Afungi LNG corridor"
+      },
+      {
+        "value": "Class 7 ALVARÁ",
+        "label": "Licensed for construction & engineering works"
+      }
+    ],
+    "intro": {
+      "eyebrow": "Who we are",
+      "title": "A credible local partner for complex delivery",
+      "body": "Radarscape Mozambique Limitada is a Mozambican engineering and construction partner positioned to help clients deliver complex projects with reliability, speed, safety, quality and commercial discipline. With proven operating exposure in the Afungi LNG corridor, a strong local market presence and access to wider group capability, Radarscape is a trusted choice for clients seeking a credible local partner for Oil & Gas, industrial, energy and strategic infrastructure delivery.",
+      "cta": "Learn more about us"
+    },
+    "why": {
+      "eyebrow": "Why choose Radarscape",
+      "title": "Local strength, buyer confidence, scalable support",
+      "items": [
+        {
+          "icon": "location",
+          "title": "Local execution strength",
+          "body": "Strong on-ground capability in Mozambique, including experience in LNG-linked operating environments."
+        },
+        {
+          "icon": "hseq",
+          "title": "Buyer confidence",
+          "body": "Strong HSEQ alignment, disciplined delivery and practical commercial control."
+        },
+        {
+          "icon": "delivery",
+          "title": "Scalable support & strategic value",
+          "body": "Group-backed capacity, partnership-driven delivery, local content participation, execution agility and dependable project performance."
+        }
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Execution-focused capabilities, end to end",
+      "intro": "From project planning through construction, infrastructure delivery, utilities, commissioning support and ongoing maintenance.",
+      "items": [
+        {
+          "key": "engineering",
+          "icon": "engineering",
+          "title": "Engineering, Civil & Industrial Construction"
+        },
+        {
+          "key": "designBuild",
+          "icon": "designBuild",
+          "title": "Design-Build & Turnkey Delivery"
+        },
+        {
+          "key": "energy",
+          "icon": "energy",
+          "title": "Energy, Power & Electrical Infrastructure"
+        },
+        {
+          "key": "water",
+          "icon": "water",
+          "title": "Water, Utilities & Essential Infrastructure"
+        },
+        {
+          "key": "maintenance",
+          "icon": "maintenance",
+          "title": "Maintenance, Facilities & Operational Support"
+        }
+      ],
+      "cta": "See all capabilities"
+    },
+    "projects": {
+      "eyebrow": "Featured projects",
+      "title": "Delivered in demanding environments",
+      "intro": "Selected Mozambique experience across civil, structural, electrical and roadworks scopes.",
+      "items": [
+        {
+          "name": "Afungi site improvement works",
+          "caption": "Structure and steel works within the Afungi LNG operating ecosystem."
+        },
+        {
+          "name": "5MW solar PV plant, Afungi",
+          "caption": "Installation of a 5MW solar photovoltaic plant supporting site power."
+        },
+        {
+          "name": "Palma fish market road",
+          "caption": "Construction of access road infrastructure serving the Palma fish market."
+        }
+      ],
+      "cta": "View our project experience"
+    },
+    "advantage": {
+      "eyebrow": "Strategic advantage",
+      "title": "Built for demanding, high-compliance environments",
+      "items": [
+        "Relevant Oil & Gas exposure in the Afungi LNG operating ecosystem.",
+        "Strong local presence backed by scalable group and partner capability.",
+        "A commitment to local content and long-term market presence in Mozambique."
+      ],
+      "cta": "Build with confidence — contact us"
+    },
+    "closing": {
+      "eyebrow": "Let's build with confidence",
+      "title": "Ready to support demanding project environments",
+      "body": "Radarscape is ready to support clients seeking a credible local partner with execution discipline, scalable delivery support and a strong fit for demanding, high-compliance project environments. We welcome opportunities to engage on tenders, subcontracting partnerships, direct awards and strategic project collaboration across Mozambique.",
+      "cta": "Contact us"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "About Radarscape",
+      "subtitle": "A Mozambican engineering, construction and infrastructure delivery company built on execution discipline."
+    },
+    "snapshot": {
+      "title": "Company snapshot",
+      "body": [
+        "Radarscape Mozambique Limitada is a Mozambican engineering, construction and infrastructure delivery company serving clients in Oil & Gas, energy, industrial and strategic infrastructure environments. We deliver practical, execution-focused solutions that help clients complete critical projects safely, on time and with strong commercial control.",
+        "Established in September 2021 and operational since 2022, the company has rapidly built a credible execution presence in Cabo Delgado, with experience in demanding project environments linked to the TotalEnergies Mozambique LNG Area 1 ecosystem. This gives Radarscape relevant exposure to the standards, responsiveness and delivery discipline expected on high-specification projects.",
+        "Radarscape combines local market access, execution agility and group-backed technical depth. Supported by its parent group, Macefield Ventures Mozambique Limitada, and affiliated expertise from established regional businesses, the company gives clients a strong combination of local participation, scalable delivery capability and international project standards."
+      ]
+    },
+    "corporate": {
+      "title": "Corporate snapshot",
+      "rows": [
+        {
+          "item": "Company name",
+          "value": "Radarscape Mozambique Limitada"
+        },
+        {
+          "item": "Year of establishment",
+          "value": "2021"
+        },
+        {
+          "item": "Registration",
+          "value": "Mozambique"
+        },
+        {
+          "item": "License",
+          "value": "Class 7 ALVARÁ"
+        },
+        {
+          "item": "Head office",
+          "value": "Maputo, Mozambique"
+        },
+        {
+          "item": "Core operating area",
+          "value": "Cabo Delgado (Afungi LNG corridor)"
+        },
+        {
+          "item": "Parent company",
+          "value": "Macefield Ventures Mozambique Limitada"
+        }
+      ]
+    },
+    "visionMission": {
+      "visionLabel": "Vision",
+      "vision": "To be Mozambique's most trusted and innovative Oil & Gas infrastructure partner.",
+      "missionLabel": "Mission",
+      "mission": "To deliver value through strong partnerships, efficient execution and practical solutions."
+    },
+    "values": {
+      "eyebrow": "Core values",
+      "title": "What we hold ourselves to",
+      "items": [
+        {
+          "icon": "safety",
+          "title": "Safety-first execution"
+        },
+        {
+          "icon": "integrity",
+          "title": "Integrity and accountability"
+        },
+        {
+          "icon": "client",
+          "title": "Client-focused delivery"
+        },
+        {
+          "icon": "excellence",
+          "title": "Operational excellence"
+        },
+        {
+          "icon": "innovation",
+          "title": "Innovation and continuous improvement"
+        },
+        {
+          "icon": "sustainability",
+          "title": "Sustainable local impact"
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Leadership, team & execution support",
+      "title": "A multidisciplinary delivery team",
+      "body": "Our delivery model is supported by a multidisciplinary team equipped to manage technical coordination, commercial control, procurement, HSEQ and site execution across diverse project scopes.",
+      "roles": [
+        "Engineers and project managers",
+        "Quantity surveyors and HSE specialists",
+        "Commercial, procurement and logistics professionals"
+      ],
+      "reinforcedByTitle": "Reinforced by",
+      "reinforcedBy": [
+        "Group-level support in legal, commercial, tax and contract management",
+        "A flexible staffing model that scales with project demand"
+      ],
+      "cta": "See how we deliver"
+    }
+  },
+  "capabilities": {
+    "hero": {
+      "eyebrow": "Capabilities",
+      "title": "Core Capabilities",
+      "subtitle": "High-value, execution-focused capabilities that support clients from project planning through construction, infrastructure delivery, utilities, commissioning support and ongoing maintenance."
+    },
+    "cards": [
+      {
+        "key": "engineering",
+        "anchor": "engineering",
+        "icon": "engineering",
+        "title": "Engineering, Civil & Industrial Construction",
+        "points": [
+          "Civil, structural and infrastructure construction",
+          "Mechanical and electrical installation works",
+          "Roadworks, site preparation and earthworks",
+          "Industrial buildings, operational facilities and support infrastructure"
+        ]
+      },
+      {
+        "key": "designBuild",
+        "anchor": "design-build",
+        "icon": "designBuild",
+        "title": "Design-Build & Turnkey Delivery",
+        "points": [
+          "Concept development and detailed engineering support",
+          "Integrated project design coordination",
+          "Turnkey delivery for selected project scopes"
+        ]
+      },
+      {
+        "key": "energy",
+        "anchor": "energy",
+        "icon": "energy",
+        "title": "Energy, Power & Electrical Infrastructure",
+        "points": [
+          "Low- and medium-voltage electrical systems",
+          "Solar and renewable energy infrastructure",
+          "Substations and associated electrical works"
+        ]
+      },
+      {
+        "key": "water",
+        "anchor": "water",
+        "icon": "water",
+        "title": "Water, Utilities & Essential Infrastructure",
+        "points": [
+          "Water treatment, reticulation and distribution systems",
+          "Wastewater and support utility infrastructure"
+        ]
+      },
+      {
+        "key": "maintenance",
+        "anchor": "maintenance",
+        "icon": "maintenance",
+        "title": "Maintenance, Facilities & Operational Support",
+        "points": [
+          "Civil, electrical and HVAC maintenance services",
+          "Industrial and commercial facilities support",
+          "Responsive maintenance teams for mission-critical environments"
+        ]
+      }
+    ],
+    "subnav": {
+      "title": "Specialist assurance",
+      "items": [
+        {
+          "key": "technology",
+          "icon": "technology",
+          "title": "Technology, Systems & Controls",
+          "blurb": "Modern project systems and digital controls for planning quality and execution certainty."
+        },
+        {
+          "key": "hseq",
+          "icon": "hseq",
+          "title": "HSEQ & Compliance Assurance",
+          "blurb": "Built to operate in high-compliance, high-consequence environments."
+        }
+      ]
+    },
+    "cta": "See this capability in action — view our projects"
+  },
+  "technology": {
+    "hero": {
+      "eyebrow": "Capabilities",
+      "title": "Technology, Systems & Controls",
+      "intro": "Radarscape uses modern project systems and digital controls to improve planning quality, cost visibility, coordination and execution certainty."
+    },
+    "items": [
+      {
+        "icon": "projects",
+        "title": "Building Information Modeling (BIM)",
+        "body": "Model-based coordination that improves design visibility, clash detection and constructability across disciplines."
+      },
+      {
+        "icon": "document",
+        "title": "Digital estimating & cost control — CCS Candy",
+        "body": "A specialised, contractor-focused software suite designed for construction and engineering estimation, planning and project control."
+      }
+    ],
+    "benefitsTitle": "Benefits for clients",
+    "benefits": [
+      "Stronger project coordination and design visibility",
+      "Better cost control and reduced rework exposure",
+      "Improved real-time monitoring for timely decision-making"
+    ]
+  },
+  "hseq": {
+    "hero": {
+      "eyebrow": "Capabilities",
+      "title": "HSEQ & Compliance Assurance",
+      "intro": "Radarscape is built to operate in high-compliance, high-consequence environments. Our delivery approach is anchored in strong HSEQ discipline and alignment with client, regulatory and international project requirements."
+    },
+    "pillars": [
+      {
+        "icon": "safety",
+        "title": "Strict health and safety management"
+      },
+      {
+        "icon": "excellence",
+        "title": "Quality-focused project controls"
+      },
+      {
+        "icon": "sustainability",
+        "title": "Environmental responsibility and sustainable work practices"
+      }
+    ],
+    "forClientsTitle": "For clients, this means",
+    "forClients": [
+      "Safer project execution and reduced delivery risk",
+      "Stronger compliance with site and regulatory requirements",
+      "Greater confidence in project governance and performance"
+    ]
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Projects",
+      "title": "Relevant Project Experience",
+      "subtitle": "Our project experience demonstrates the ability to mobilise, execute and deliver in remote, compliance-sensitive and operationally demanding environments."
+    },
+    "items": [
+      {
+        "name": "Rehabilitation of housing infrastructure — Quitunda, Palma",
+        "caption": "Rehabilitation of housing infrastructure in the Quitunda resettlement area.",
+        "tags": [
+          "Civil",
+          "Buildings"
+        ]
+      },
+      {
+        "name": "Afungi site improvement works",
+        "caption": "Site improvement works including structure and steel works.",
+        "tags": [
+          "Civil",
+          "Structural"
+        ]
+      },
+      {
+        "name": "Palma fish market road",
+        "caption": "Construction of the Palma fish market access road.",
+        "tags": [
+          "Roadworks",
+          "Civil"
+        ]
+      },
+      {
+        "name": "Barracks & security infrastructure",
+        "caption": "Construction of barracks and security infrastructure.",
+        "tags": [
+          "Buildings",
+          "Civil"
+        ]
+      },
+      {
+        "name": "5MW solar PV plant — Afungi",
+        "caption": "Installation of a 5MW solar photovoltaic plant.",
+        "tags": [
+          "Electrical",
+          "Energy"
+        ]
+      },
+      {
+        "name": "Afungi airstrip expansion",
+        "caption": "Airstrip expansion works within the Afungi operating area.",
+        "tags": [
+          "Earthworks",
+          "Civil"
+        ]
+      }
+    ],
+    "demonstrates": {
+      "title": "What this experience demonstrates",
+      "points": [
+        "Operate under strict HSEQ and client compliance expectations",
+        "Perform in LNG-linked and remote project environments",
+        "Manage multi-disciplinary scopes with execution discipline",
+        "Support local content delivery with practical on-ground capability"
+      ]
+    },
+    "cta": "Discuss your project with us"
+  },
+  "deliveryModel": {
+    "hero": {
+      "eyebrow": "Delivery model",
+      "title": "Delivery Model & Group Strength",
+      "subtitle": "A flexible, partnership-enabled execution model designed to help clients deliver complex scopes with the right balance of local presence, technical support and commercial control."
+    },
+    "groupStrength": {
+      "eyebrow": "Delivery platform & group strength",
+      "title": "Broader depth through the group ecosystem",
+      "body": "Through its wider group ecosystem — including affiliated regional contractors and technical businesses — Radarscape benefits from broader delivery depth, cross-border expertise and additional execution capacity across engineering and infrastructure projects.",
+      "points": [
+        "Large-scale industrial and commercial projects",
+        "Energy and power infrastructure",
+        "Road, civil and urban development works"
+      ],
+      "translatesToTitle": "For clients, this translates into",
+      "translatesTo": [
+        "Greater technical depth and engineering support",
+        "Enhanced project mobilisation and delivery capacity",
+        "Access to broader specialist expertise when projects scale"
+      ]
+    },
+    "model": {
+      "eyebrow": "Delivery model",
+      "title": "Partnership-enabled execution",
+      "body": "Radarscape applies a flexible, partnership-enabled execution model designed to help clients deliver complex scopes with the right balance of local presence, technical support and commercial control.",
+      "blocks": [
+        {
+          "icon": "delivery",
+          "title": "Partnership-driven project access",
+          "points": [
+            "Collaboration with established EPC and specialist contractors",
+            "Access to complex Oil & Gas and infrastructure opportunities",
+            "Balanced risk sharing and greater cost efficiency for clients"
+          ]
+        },
+        {
+          "icon": "compass",
+          "title": "Execution control & asset strategy",
+          "points": [
+            "Project-specific delivery teams aligned to scope and schedule",
+            "Flexible equipment strategy combining leasing, rental and selective ownership",
+            "Disciplined cost control and efficient use of equipment and resources"
+          ]
+        },
+        {
+          "icon": "growth",
+          "title": "Capability growth & localisation",
+          "points": [
+            "Ongoing expansion in engineering, execution and commissioning support",
+            "Progressive growth of in-house delivery capability",
+            "Stronger local content participation and long-term operational autonomy"
+          ]
+        }
+      ]
+    },
+    "cta": "See our strategic advantage"
+  },
+  "whyRadarscape": {
+    "hero": {
+      "eyebrow": "Why Radarscape",
+      "title": "A credible local partner with execution discipline",
+      "subtitle": "Radarscape combines responsiveness, compliance discipline and scalable delivery capability for demanding project environments in Mozambique."
+    },
+    "advantages": [
+      "Relevant Oil & Gas exposure in the Afungi LNG operating ecosystem",
+      "Strong local presence backed by scalable group and partner capability",
+      "Flexible commercial model that supports cost-effective delivery",
+      "Execution agility in challenging and remote environments",
+      "Growing in-house technical depth across engineering and project execution",
+      "Commitment to local content and long-term market presence in Mozambique"
+    ],
+    "marketPosition": {
+      "title": "Market position & growth strategy",
+      "body": "Radarscape offers a strong value proposition for clients looking for a local contractor that can combine responsiveness, compliance discipline and scalable delivery capability in Mozambique.",
+      "focusTitle": "Focus areas",
+      "focusAreas": [
+        "Oil & Gas construction and support infrastructure",
+        "Industrial and strategic infrastructure delivery",
+        "Energy and utility-linked project execution"
+      ],
+      "growthTitle": "Our growth strategy is focused on",
+      "growth": [
+        "Earning higher-value work through stronger execution credibility",
+        "Delivering greater value through better project control and resource efficiency",
+        "Growing into adjacent sectors while building on our Oil & Gas expertise",
+        "Building long-term client partnerships and recurring project opportunities"
+      ]
+    },
+    "cta": "Partner with Radarscape — contact us"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's build with confidence",
+      "body": "Radarscape is ready to support clients seeking a credible local partner with execution discipline, scalable delivery support and a strong fit for demanding, high-compliance project environments. We welcome opportunities to engage on tenders, subcontracting partnerships, direct awards and strategic project collaboration across Mozambique."
+    },
+    "detailsTitle": "Contact details",
+    "officeLabel": "Head office",
+    "phoneLabel": "Telephone",
+    "emailLabel": "Email",
+    "hoursLabel": "Office hours",
+    "hoursValue": "Monday–Friday, 08:00–17:00 (CAT)",
+    "form": {
+      "title": "Send us a message",
+      "note": "Fields marked with an asterisk (*) are required.",
+      "fields": {
+        "name": "Name",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "subjectPlaceholder": "Select a subject",
+      "subjectOptions": [
+        {
+          "value": "tender",
+          "label": "Tender enquiry"
+        },
+        {
+          "value": "subcontracting",
+          "label": "Subcontracting partnership"
+        },
+        {
+          "value": "general",
+          "label": "General enquiry"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ],
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Thank you — your message has been received",
+      "successBody": "A member of the Radarscape team will respond to your enquiry shortly. For urgent matters, please call the head office directly.",
+      "sendAnother": "Send another message",
+      "errorRequired": "Please complete this field.",
+      "errorEmail": "Please enter a valid email address.",
+      "errorGeneric": "Something went wrong. Please try again or email us directly."
+    },
+    "mapTitle": "Find us in Maputo",
+    "mapLinkLabel": "Open in maps"
+  }
+}
