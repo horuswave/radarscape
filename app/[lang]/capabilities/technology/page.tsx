@@ -37,6 +37,7 @@ export default async function TechnologyPage({
         ]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="bim"
       />
 
       <Section>

@@ -39,7 +39,7 @@ export async function buildMetadata(
   ]);
 
   return {
-    title: page === "home" ? { absolute: `${title} — ${company.shortName}` } : title,
+    title: page === "home" ? { absolute: `${title} | ${company.shortName}` } : title,
     description,
     alternates: {
       canonical: href(path, locale),

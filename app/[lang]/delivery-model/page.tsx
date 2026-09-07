@@ -36,6 +36,7 @@ export default async function DeliveryModelPage({
         breadcrumbs={[{ key: "deliveryModel", label: dict.nav.deliveryModel }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="terminal"
       />
 
       {/* Group strength */}

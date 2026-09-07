@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import type { Locale } from "@/lib/i18n";
 import { routes, withLocale, type NavKey } from "@/lib/navigation";
 import { Container, Eyebrow } from "@/components/ui/primitives";
-import { RadarMotif } from "@/components/ui/motif";
+import { Photo, type PhotoName } from "@/components/ui/photo";
 import { Icon } from "@/components/ui/icon";
 
 type Crumb = { key: NavKey; label: string };
@@ -16,6 +16,8 @@ export function PageHero({
   breadcrumbs,
   breadcrumbLabel = "Breadcrumb",
   homeLabel = "Home",
+  photo = "structure",
+  photoAlt = "",
   children,
 }: {
   locale: Locale;
@@ -25,16 +27,20 @@ export function PageHero({
   breadcrumbs?: Crumb[];
   breadcrumbLabel?: string;
   homeLabel?: string;
+  photo?: PhotoName;
+  photoAlt?: string;
   children?: ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden bg-navy-800 text-white">
-      <div className="rs-grid-texture absolute inset-0 opacity-40" data-on-dark aria-hidden />
-      <RadarMotif
-        className="pointer-events-none absolute -right-24 -top-24 h-130 w-130 text-amber-400/40"
+    <section className="relative isolate overflow-hidden bg-navy-900 text-white">
+      <Photo name={photo} alt={photoAlt} overlay="hero" sizes="100vw" priority />
+      <div
+        className="rs-grid-texture absolute inset-0 opacity-15"
+        data-on-dark
+        aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-navy-900/40"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-linear-to-b from-transparent to-navy-950/60"
         aria-hidden
       />
       <Container className="relative py-14 sm:py-20">

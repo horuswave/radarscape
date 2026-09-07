@@ -1,7 +1,7 @@
 import type { SVGProps } from "react";
 
 /**
- * Line icon set — 24px grid, 1.6 stroke, `currentColor`.
+ * Line icon set. 24px grid, 1.6 stroke, `currentColor`.
  * Deliberately geometric to sit alongside the Radarscape mark.
  */
 export type IconName =
@@ -30,7 +30,6 @@ export type IconName =
   | "team"
   | "document"
   | "compass"
-  | "radar"
   | "scale"
   | "clock";
 
@@ -171,13 +170,6 @@ const paths: Record<IconName, React.ReactNode> = {
     <>
       <circle cx="12" cy="12" r="8.5" />
       <path d="m15.5 8.5-2 5.5-5.5 2 2-5.5 5.5-2Z" />
-    </>
-  ),
-  radar: (
-    <>
-      <path d="M12 12 19 6" />
-      <path d="M12 3.5a8.5 8.5 0 1 0 8.4 7" />
-      <path d="M12 7.5a4.5 4.5 0 1 0 4.4 3.5" />
     </>
   ),
   scale: (

@@ -14,6 +14,7 @@ import { Icon, type IconName } from "@/components/ui/icon";
 import { CheckList } from "@/components/ui/check-list";
 import { CtaBanner } from "@/components/ui/cta-banner";
 import { Reveal } from "@/components/ui/reveal";
+import { Photo } from "@/components/ui/photo";
 
 export async function generateMetadata({
   params,
@@ -38,6 +39,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
         breadcrumbs={[{ key: "about", label: dict.nav.about }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="structure"
       />
 
       {/* Snapshot */}
@@ -86,7 +88,7 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
         <div className="rs-container grid gap-6 md:grid-cols-2">
           {[
             { label: t.visionMission.visionLabel, body: t.visionMission.vision, icon: "compass" as IconName },
-            { label: t.visionMission.missionLabel, body: t.visionMission.mission, icon: "radar" as IconName },
+            { label: t.visionMission.missionLabel, body: t.visionMission.mission, icon: "delivery" as IconName },
           ].map((block) => (
             <Reveal
               key={block.label}
@@ -125,6 +127,14 @@ export default async function AboutPage({ params }: PageProps<"/[lang]/about">) 
 
       {/* Team */}
       <Section tone="surface">
+        <Reveal className="relative mb-12 aspect-video overflow-hidden rounded-xl border border-hairline sm:aspect-21/9">
+          <Photo
+            name="site-team"
+            alt={t.team.title}
+            overlay="bottom"
+            sizes="(min-width: 1200px) 1140px, 100vw"
+          />
+        </Reveal>
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-16">
           <Reveal>
             <Eyebrow>{t.team.eyebrow}</Eyebrow>

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { lang as langParam } from "next/root-params";
 import { isLocale, defaultLocale } from "@/lib/i18n";
 import { Container } from "@/components/ui/primitives";
-import { RadarMotif } from "@/components/ui/motif";
 import { Icon } from "@/components/ui/icon";
 
 const copy = {
@@ -17,13 +16,17 @@ export default async function NotFound() {
     const raw = await langParam();
     if (raw && isLocale(raw)) locale = raw;
   } catch {
-    // root param unavailable in this context — fall back to the default locale
+    // root param unavailable in this context, fall back to the default locale
   }
   const c = copy[locale];
 
   return (
-    <section className="relative overflow-hidden bg-navy-800 text-white">
-      <RadarMotif className="pointer-events-none absolute -right-24 -top-24 h-130 w-130 text-amber-400/40" />
+    <section className="relative overflow-hidden bg-navy-900 text-white">
+      <div className="rs-grid-texture absolute inset-0 opacity-30" data-on-dark aria-hidden />
+      <div
+        className="pointer-events-none absolute inset-0 bg-linear-to-br from-navy-900/0 to-navy-950/70"
+        aria-hidden
+      />
       <Container className="relative flex min-h-[60vh] flex-col items-start justify-center py-24">
         <span className="font-display text-6xl font-extrabold tracking-tight text-amber-400 sm:text-7xl">
           {c.code}

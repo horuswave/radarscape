@@ -14,11 +14,12 @@ import {
 } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
 import { Icon, type IconName } from "@/components/ui/icon";
-import { RadarMotif, TopoMotif } from "@/components/ui/motif";
 import { Reveal } from "@/components/ui/reveal";
 import { CheckList } from "@/components/ui/check-list";
 import { CtaBanner } from "@/components/ui/cta-banner";
-import { ProjectVisual } from "@/components/ui/project-visual";
+import { Photo, type PhotoName } from "@/components/ui/photo";
+
+const FEATURED_PHOTOS: PhotoName[] = ["structure", "solar-aerial", "road-corridor"];
 
 export async function generateMetadata({
   params,
@@ -36,17 +37,22 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   return (
     <>
       {/* --------------------------------------------------------------- Hero */}
-      <section className="relative overflow-hidden bg-navy-800 text-white">
-        <div className="rs-grid-texture absolute inset-0 opacity-50" data-on-dark aria-hidden />
-        <RadarMotif className="pointer-events-none absolute -right-32 -top-40 h-190 w-190 text-amber-400/35" />
+      <section className="relative isolate overflow-hidden bg-navy-900 text-white">
+        <Photo
+          name="road-corridor"
+          alt="A newly constructed road running through open terrain in Mozambique"
+          priority
+          overlay="hero"
+          sizes="100vw"
+        />
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-navy-900/30 via-transparent to-navy-950/60"
+          className="rs-grid-texture absolute inset-0 opacity-25"
+          data-on-dark
           aria-hidden
         />
         <Container className="relative">
           <div className="grid items-center gap-12 pb-24 pt-16 sm:pb-28 sm:pt-24 lg:grid-cols-[1.15fr_0.85fr] lg:pb-32 lg:pt-28">
             <div>
-              <Eyebrow onDark>{t.hero.eyebrow}</Eyebrow>
               <h1 className="mt-5 text-4xl font-extrabold leading-[1.06] tracking-tight text-white sm:text-5xl lg:text-[3.25rem] lg:leading-[1.05]">
                 {t.hero.title}
               </h1>
@@ -66,7 +72,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
                   href={withLocale(routes.contact.path, locale)}
                   variant="outline"
                   size="lg"
-                  className="border-white/30 text-white hover:bg-white/10"
+                  className="border-white/40 text-white hover:bg-white/10"
                 >
                   {t.hero.secondaryCta}
                 </Button>
@@ -74,20 +80,24 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
             </div>
 
             <div className="relative hidden lg:block">
-              <div className="relative aspect-square rounded-2xl border border-white/10 bg-navy-900/40 p-8 backdrop-blur-sm">
-                <RadarMotif className="h-full w-full text-amber-400/70" />
-                <div className="absolute inset-x-8 bottom-8 flex items-center gap-3 rounded-lg border border-white/10 bg-navy-950/70 px-4 py-3">
-                  <Icon name="location" size={18} className="text-amber-400" />
-                  <span className="text-sm text-navy-100">{company.coreArea}</span>
+              <div className="relative aspect-4/5 overflow-hidden rounded-2xl border border-white/15 shadow-(--shadow-lift)">
+                <Photo
+                  name="site-team"
+                  alt="Radarscape site team in personal protective equipment during a project briefing"
+                  overlay="bottom"
+                  sizes="(min-width: 1024px) 40vw, 0px"
+                />
+                <div className="absolute inset-x-5 bottom-5 flex items-center gap-3 rounded-lg border border-white/15 bg-navy-950/70 px-4 py-3 backdrop-blur-sm">
+                  <Icon name="location" size={18} className="shrink-0 text-amber-400" />
+                  <span className="text-sm text-navy-50">{company.coreArea}</span>
                 </div>
               </div>
             </div>
           </div>
         </Container>
-
       </section>
 
-      {/* Stats strip — lifted over the hero / next section boundary */}
+      {/* Stats strip: lifted over the hero / next section boundary */}
       <Container className="relative z-10 -mt-12 sm:-mt-16">
         <div className="grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-hairline bg-hairline shadow-(--shadow-lift) sm:grid-cols-2 lg:grid-cols-4">
           {t.stats.map((s) => (
@@ -215,7 +225,18 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
               delay={i}
               className="group flex flex-col overflow-hidden rounded-xl border border-hairline bg-white transition-shadow hover:shadow-(--shadow-card)"
             >
-              <ProjectVisual index={i + 1} className="aspect-4/3" />
+              <div className="relative aspect-4/3 overflow-hidden">
+                <Photo
+                  name={FEATURED_PHOTOS[i % FEATURED_PHOTOS.length]}
+                  alt={item.name}
+                  overlay="bottom"
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="transition-transform duration-500 group-hover:scale-[1.03]"
+                />
+                <span className="absolute left-4 top-4 font-display text-[0.7rem] font-semibold tracking-[0.25em] text-amber-300">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+              </div>
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-lg font-bold text-navy-900">{item.name}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">
@@ -228,8 +249,14 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       </Section>
 
       {/* -------------------------------------------------- Strategic advantage */}
-      <section className="relative overflow-hidden bg-ink py-20 text-sand-100 sm:py-28">
-        <TopoMotif className="pointer-events-none absolute inset-x-0 top-0 h-full w-full text-white/5" />
+      <section className="relative isolate overflow-hidden bg-ink py-20 text-sand-100 sm:py-28">
+        <Photo
+          name="port"
+          alt="Container port with ship-to-shore cranes"
+          overlay="ink"
+          sizes="100vw"
+          className="opacity-70"
+        />
         <Container className="relative">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
             <div>

@@ -1,13 +1,13 @@
 {
   "meta": {
     "site": {
-      "title": "Radarscape Moçambique — Engenharia, Construção e Execução de Infraestruturas",
-      "description": "A Radarscape Mozambique Limitada é um parceiro moçambicano de engenharia, construção e execução de infraestruturas para os sectores de Petróleo e Gás, energia e infraestruturas estratégicas — assente em disciplina de execução, alinhamento HSEQ e controlo comercial."
+      "title": "Radarscape Moçambique | Engenharia, Construção e Execução de Infraestruturas",
+      "description": "A Radarscape Mozambique Limitada é um parceiro moçambicano de engenharia, construção e execução de infraestruturas para os sectores de Petróleo e Gás, energia e infraestruturas estratégicas, assente em disciplina de execução, alinhamento HSEQ e controlo comercial."
     },
     "pages": {
       "home": {
         "title": "O parceiro de execução de confiança em Moçambique",
-        "description": "Engenharia, construção e execução de infraestruturas em Moçambique — concebidas para fiabilidade, rapidez, segurança e disciplina comercial, com exposição relevante ao corredor de GNL de Afungi."
+        "description": "Engenharia, construção e execução de infraestruturas em Moçambique, concebidas para fiabilidade, rapidez, segurança e disciplina comercial, com exposição relevante ao corredor de GNL de Afungi."
       },
       "about": {
         "title": "Sobre a Radarscape",
@@ -19,7 +19,7 @@
       },
       "technology": {
         "title": "Tecnologia, Sistemas e Controlo",
-        "description": "Sistemas de projeto modernos e controlos digitais — coordenação BIM e controlo de custos com o CCS Candy — para qualidade de planeamento, visibilidade de custos e certeza de execução."
+        "description": "Sistemas de projeto modernos e controlos digitais (coordenação BIM e controlo de custos com o CCS Candy) para qualidade de planeamento, visibilidade de custos e certeza de execução."
       },
       "hseq": {
         "title": "HSEQ e Garantia de Conformidade",
@@ -35,7 +35,7 @@
       },
       "whyRadarscape": {
         "title": "Porquê a Radarscape",
-        "description": "Exposição relevante ao Petróleo e Gás, forte presença local, um modelo comercial flexível e uma profundidade técnica interna crescente — um parceiro de execução local credível em Moçambique."
+        "description": "Exposição relevante ao Petróleo e Gás, forte presença local, um modelo comercial flexível e uma profundidade técnica interna crescente: um parceiro de execução local credível em Moçambique."
       },
       "contact": {
         "title": "Contactar a Radarscape",
@@ -62,7 +62,7 @@
     "contactCta": "Contacte-nos",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu",
-    "homeLabel": "Radarscape — início",
+    "homeLabel": "Radarscape início",
     "localeLabel": "Mudar de idioma",
     "menuTitle": "Menu",
     "navShort": {
@@ -100,7 +100,7 @@
         "href": "/capabilities/hseq"
       }
     ],
-    "legalLine": "Radarscape Mozambique Limitada — Alvará Classe 7 | Maputo, Moçambique",
+    "legalLine": "Radarscape Mozambique Limitada | Alvará Classe 7 | Maputo, Moçambique",
     "rights": "Todos os direitos reservados.",
     "credit": "Empresa-mãe: Macefield Ventures Mozambique Limitada."
   },
@@ -116,7 +116,7 @@
       "seeHowWeDeliver": "Veja como executamos",
       "seeStrategicAdvantage": "Ver a nossa vantagem estratégica",
       "partnerWithUs": "Estabeleça parceria com a Radarscape",
-      "buildWithConfidence": "Construa com confiança — contacte-nos",
+      "buildWithConfidence": "Construa com confiança, contacte-nos",
       "backToCapabilities": "Voltar às competências",
       "seeInAction": "Veja esta competência em ação"
     }
@@ -125,7 +125,7 @@
     "hero": {
       "eyebrow": "Radarscape Mozambique Limitada",
       "title": "O parceiro de execução de confiança em Moçambique para Petróleo e Gás, energia e infraestruturas",
-      "subtitle": "Engenharia, construção e execução de infraestruturas — concebidas para fiabilidade, rapidez, segurança e disciplina comercial.",
+      "subtitle": "Engenharia, construção e execução de infraestruturas concebidas para fiabilidade, rapidez, segurança e disciplina comercial.",
       "primaryCta": "Ver as nossas competências",
       "secondaryCta": "Fale connosco",
       "scrollHint": "Deslize para explorar"
@@ -141,7 +141,7 @@
       },
       {
         "value": "Cabo Delgado",
-        "label": "Zona operacional central — corredor de GNL de Afungi"
+        "label": "Zona operacional central: corredor de GNL de Afungi"
       },
       {
         "value": "Alvará Classe 7",
@@ -236,7 +236,7 @@
         "Forte presença local apoiada por capacidade escalável do grupo e de parceiros.",
         "Um compromisso com o conteúdo local e a presença de longo prazo no mercado moçambicano."
       ],
-      "cta": "Construa com confiança — contacte-nos"
+      "cta": "Construa com confiança, contacte-nos"
     },
     "closing": {
       "eyebrow": "Vamos construir com confiança",
@@ -425,7 +425,7 @@
         }
       ]
     },
-    "cta": "Veja esta competência em ação — veja os nossos projetos"
+    "cta": "Veja esta competência em ação: veja os nossos projetos"
   },
   "technology": {
     "hero": {
@@ -441,7 +441,7 @@
       },
       {
         "icon": "document",
-        "title": "Orçamentação e controlo de custos digital — CCS Candy",
+        "title": "Orçamentação e controlo de custos digital (CCS Candy)",
         "body": "Um conjunto de software especializado, orientado para o empreiteiro, concebido para a orçamentação, o planeamento e o controlo de projetos de construção e engenharia."
       }
     ],
@@ -487,7 +487,7 @@
     },
     "items": [
       {
-        "name": "Reabilitação de infraestruturas habitacionais — Quitunda, Palma",
+        "name": "Reabilitação de infraestruturas habitacionais, Quitunda, Palma",
         "caption": "Reabilitação de infraestruturas habitacionais na zona de reassentamento de Quitunda.",
         "tags": [
           "Civil",
@@ -519,7 +519,7 @@
         ]
       },
       {
-        "name": "Central solar fotovoltaica de 5 MW — Afungi",
+        "name": "Central solar fotovoltaica de 5 MW, Afungi",
         "caption": "Instalação de uma central solar fotovoltaica de 5 MW.",
         "tags": [
           "Elétrica",
@@ -555,7 +555,7 @@
     "groupStrength": {
       "eyebrow": "Plataforma de execução e força do grupo",
       "title": "Maior profundidade através do ecossistema do grupo",
-      "body": "Através do seu ecossistema de grupo mais alargado — incluindo empreiteiros regionais afiliados e empresas técnicas — a Radarscape beneficia de maior profundidade de execução, competências transfronteiriças e capacidade de execução adicional em projetos de engenharia e infraestruturas.",
+      "body": "Através do seu ecossistema de grupo mais alargado, incluindo empreiteiros regionais afiliados e empresas técnicas, a Radarscape beneficia de maior profundidade de execução, competências transfronteiriças e capacidade de execução adicional em projetos de engenharia e infraestruturas.",
       "points": [
         "Projetos industriais e comerciais de grande escala",
         "Infraestruturas de energia e eletricidade",
@@ -635,7 +635,7 @@
         "Construir parcerias de longo prazo com clientes e oportunidades de projeto recorrentes"
       ]
     },
-    "cta": "Estabeleça parceria com a Radarscape — contacte-nos"
+    "cta": "Estabeleça parceria com a Radarscape, contacte-nos"
   },
   "contact": {
     "hero": {
@@ -681,7 +681,7 @@
       ],
       "submit": "Enviar mensagem",
       "sending": "A enviar…",
-      "successTitle": "Obrigado — a sua mensagem foi recebida",
+      "successTitle": "Obrigado. A sua mensagem foi recebida",
       "successBody": "Um membro da equipa da Radarscape responderá à sua consulta em breve. Para assuntos urgentes, contacte diretamente a sede.",
       "sendAnother": "Enviar outra mensagem",
       "errorRequired": "Preencha este campo.",

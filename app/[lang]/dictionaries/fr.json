@@ -1,13 +1,13 @@
 {
   "meta": {
     "site": {
-      "title": "Radarscape Mozambique — Ingénierie, construction et réalisation d'infrastructures",
-      "description": "Radarscape Mozambique Limitada est un partenaire mozambicain d'ingénierie, de construction et de réalisation d'infrastructures pour les secteurs du pétrole et gaz, de l'énergie et des infrastructures stratégiques — fondé sur la rigueur d'exécution, l'alignement HSEQ et la maîtrise commerciale."
+      "title": "Radarscape Mozambique | Ingénierie, construction et réalisation d'infrastructures",
+      "description": "Radarscape Mozambique Limitada est un partenaire mozambicain d'ingénierie, de construction et de réalisation d'infrastructures pour les secteurs du pétrole et gaz, de l'énergie et des infrastructures stratégiques, fondé sur la rigueur d'exécution, l'alignement HSEQ et la maîtrise commerciale."
     },
     "pages": {
       "home": {
         "title": "Le partenaire d'exécution de confiance au Mozambique",
-        "description": "Ingénierie, construction et réalisation d'infrastructures au Mozambique — pensées pour la fiabilité, la rapidité, la sécurité et la rigueur commerciale, avec une exposition pertinente au corridor GNL d'Afungi."
+        "description": "Ingénierie, construction et réalisation d'infrastructures au Mozambique, pensées pour la fiabilité, la rapidité, la sécurité et la rigueur commerciale, avec une exposition pertinente au corridor GNL d'Afungi."
       },
       "about": {
         "title": "À propos de Radarscape",
@@ -19,7 +19,7 @@
       },
       "technology": {
         "title": "Technologie, systèmes et contrôle",
-        "description": "Des systèmes de projet modernes et des contrôles numériques — coordination BIM et maîtrise des coûts avec CCS Candy — pour la qualité de planification, la visibilité des coûts et la certitude d'exécution."
+        "description": "Des systèmes de projet modernes et des contrôles numériques (coordination BIM et maîtrise des coûts avec CCS Candy) pour la qualité de planification, la visibilité des coûts et la certitude d'exécution."
       },
       "hseq": {
         "title": "HSEQ et assurance de conformité",
@@ -35,7 +35,7 @@
       },
       "whyRadarscape": {
         "title": "Pourquoi Radarscape",
-        "description": "Une exposition pertinente au pétrole et gaz, une forte présence locale, un modèle commercial flexible et une profondeur technique interne croissante — un partenaire d'exécution local crédible au Mozambique."
+        "description": "Une exposition pertinente au pétrole et gaz, une forte présence locale, un modèle commercial flexible et une profondeur technique interne croissante, un partenaire d'exécution local crédible au Mozambique."
       },
       "contact": {
         "title": "Contacter Radarscape",
@@ -62,7 +62,7 @@
     "contactCta": "Nous contacter",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "homeLabel": "Radarscape — accueil",
+    "homeLabel": "Radarscape accueil",
     "localeLabel": "Changer de langue",
     "menuTitle": "Menu",
     "navShort": {
@@ -100,7 +100,7 @@
         "href": "/capabilities/hseq"
       }
     ],
-    "legalLine": "Radarscape Mozambique Limitada — ALVARÁ de classe 7 | Maputo, Mozambique",
+    "legalLine": "Radarscape Mozambique Limitada | ALVARÁ de classe 7 | Maputo, Mozambique",
     "rights": "Tous droits réservés.",
     "credit": "Société mère : Macefield Ventures Mozambique Limitada."
   },
@@ -116,7 +116,7 @@
       "seeHowWeDeliver": "Découvrez comment nous exécutons",
       "seeStrategicAdvantage": "Voir notre avantage stratégique",
       "partnerWithUs": "Devenez partenaire de Radarscape",
-      "buildWithConfidence": "Construire en confiance — nous contacter",
+      "buildWithConfidence": "Construire en confiance, nous contacter",
       "backToCapabilities": "Retour aux compétences",
       "seeInAction": "Voir cette compétence à l'œuvre"
     }
@@ -125,7 +125,7 @@
     "hero": {
       "eyebrow": "Radarscape Mozambique Limitada",
       "title": "Le partenaire d'exécution de confiance au Mozambique pour le pétrole et gaz, l'énergie et les infrastructures",
-      "subtitle": "Ingénierie, construction et réalisation d'infrastructures — pensées pour la fiabilité, la rapidité, la sécurité et la rigueur commerciale.",
+      "subtitle": "Ingénierie, construction et réalisation d'infrastructures pensées pour la fiabilité, la rapidité, la sécurité et la rigueur commerciale.",
       "primaryCta": "Voir nos compétences",
       "secondaryCta": "Échanger avec nous",
       "scrollHint": "Faites défiler pour explorer"
@@ -141,7 +141,7 @@
       },
       {
         "value": "Cabo Delgado",
-        "label": "Zone opérationnelle principale — corridor GNL d'Afungi"
+        "label": "Zone opérationnelle principale, corridor GNL d'Afungi"
       },
       {
         "value": "ALVARÁ classe 7",
@@ -236,7 +236,7 @@
         "Une forte présence locale soutenue par une capacité évolutive du groupe et des partenaires.",
         "Un engagement envers le contenu local et une présence de long terme sur le marché mozambicain."
       ],
-      "cta": "Construire en confiance — nous contacter"
+      "cta": "Construire en confiance, nous contacter"
     },
     "closing": {
       "eyebrow": "Construisons en confiance",
@@ -425,7 +425,7 @@
         }
       ]
     },
-    "cta": "Voir cette compétence à l'œuvre — voir nos projets"
+    "cta": "Voir cette compétence à l'œuvre, voir nos projets"
   },
   "technology": {
     "hero": {
@@ -441,7 +441,7 @@
       },
       {
         "icon": "document",
-        "title": "Estimation et maîtrise des coûts numériques — CCS Candy",
+        "title": "Estimation et maîtrise des coûts numériques (CCS Candy)",
         "body": "Une suite logicielle spécialisée, orientée entreprise de construction, conçue pour l'estimation, la planification et le contrôle des projets de construction et d'ingénierie."
       }
     ],
@@ -487,7 +487,7 @@
     },
     "items": [
       {
-        "name": "Réhabilitation d'infrastructures d'habitation — Quitunda, Palma",
+        "name": "Réhabilitation d'infrastructures d'habitation, Quitunda, Palma",
         "caption": "Réhabilitation d'infrastructures d'habitation dans la zone de réinstallation de Quitunda.",
         "tags": [
           "Génie civil",
@@ -519,7 +519,7 @@
         ]
       },
       {
-        "name": "Centrale solaire photovoltaïque de 5 MW — Afungi",
+        "name": "Centrale solaire photovoltaïque de 5 MW, Afungi",
         "caption": "Installation d'une centrale solaire photovoltaïque de 5 MW.",
         "tags": [
           "Électricité",
@@ -555,7 +555,7 @@
     "groupStrength": {
       "eyebrow": "Plateforme d'exécution et force du groupe",
       "title": "Une profondeur accrue grâce à l'écosystème du groupe",
-      "body": "Grâce à son écosystème de groupe élargi — comprenant des entreprises régionales affiliées et des sociétés techniques — Radarscape bénéficie d'une profondeur d'exécution accrue, d'une expertise transfrontalière et d'une capacité d'exécution supplémentaire sur des projets d'ingénierie et d'infrastructures.",
+      "body": "Grâce à son écosystème de groupe élargi, comprenant des entreprises régionales affiliées et des sociétés techniques, Radarscape bénéficie d'une profondeur d'exécution accrue, d'une expertise transfrontalière et d'une capacité d'exécution supplémentaire sur des projets d'ingénierie et d'infrastructures.",
       "points": [
         "Projets industriels et commerciaux de grande envergure",
         "Infrastructures d'énergie et d'électricité",
@@ -635,7 +635,7 @@
         "Bâtir des partenariats clients de long terme et des opportunités de projets récurrentes"
       ]
     },
-    "cta": "Devenez partenaire de Radarscape — nous contacter"
+    "cta": "Devenez partenaire de Radarscape, nous contacter"
   },
   "contact": {
     "hero": {
@@ -681,7 +681,7 @@
       ],
       "submit": "Envoyer le message",
       "sending": "Envoi en cours…",
-      "successTitle": "Merci — votre message a bien été reçu",
+      "successTitle": "Merci. Votre message a bien été reçu",
       "successBody": "Un membre de l'équipe Radarscape répondra à votre demande sous peu. Pour les questions urgentes, veuillez appeler directement le siège.",
       "sendAnother": "Envoyer un autre message",
       "errorRequired": "Veuillez remplir ce champ.",

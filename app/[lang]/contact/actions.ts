@@ -43,7 +43,7 @@ export async function submitContactForm(
 
   try {
     // Integration point: forward the enquiry to an email provider or CRM.
-    // Left unwired deliberately — no provider credentials are configured for
+    // Left unwired deliberately: no provider credentials are configured for
     // this build. Replace the log below with e.g. a Resend / SMTP call.
     console.info("[contact] enquiry received", {
       ...values,

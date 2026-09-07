@@ -39,6 +39,7 @@ export default async function CapabilitiesPage({
         breadcrumbs={[{ key: "capabilities", label: dict.nav.capabilities }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="engineering"
       />
 
       {/* Capability cards */}

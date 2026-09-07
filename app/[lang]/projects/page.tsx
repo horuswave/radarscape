@@ -7,7 +7,17 @@ import { PageHero } from "@/components/ui/page-hero";
 import { CheckList } from "@/components/ui/check-list";
 import { CtaBanner } from "@/components/ui/cta-banner";
 import { Reveal } from "@/components/ui/reveal";
-import { ProjectVisual } from "@/components/ui/project-visual";
+import { Photo, type PhotoName } from "@/components/ui/photo";
+
+/** One photo per project, in dictionary order. */
+const PROJECT_PHOTOS: PhotoName[] = [
+  "facilities",
+  "structure",
+  "road-corridor",
+  "construction-aerial",
+  "solar-aerial",
+  "earthworks",
+];
 
 export async function generateMetadata({
   params,
@@ -34,6 +44,7 @@ export default async function ProjectsPage({
         breadcrumbs={[{ key: "projects", label: dict.nav.projects }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="road-corridor"
       />
 
       <Section>
@@ -45,7 +56,18 @@ export default async function ProjectsPage({
               delay={i % 3}
               className="group flex flex-col overflow-hidden rounded-xl border border-hairline bg-white transition-shadow hover:shadow-(--shadow-card)"
             >
-              <ProjectVisual index={i + 1} className="aspect-16/10" />
+              <div className="relative aspect-16/10 overflow-hidden">
+                <Photo
+                  name={PROJECT_PHOTOS[i % PROJECT_PHOTOS.length]}
+                  alt={item.name}
+                  overlay="bottom"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="transition-transform duration-500 group-hover:scale-[1.03]"
+                />
+                <span className="absolute right-4 top-4 font-display text-[0.7rem] font-semibold tracking-[0.25em] text-amber-300">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+              </div>
               <div className="flex flex-1 flex-col p-6">
                 <h2 className="text-[1.05rem] font-bold leading-snug text-navy-900">
                   {item.name}

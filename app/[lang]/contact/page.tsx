@@ -73,6 +73,7 @@ export default async function ContactPage({
         breadcrumbs={[{ key: "contact", label: dict.nav.contact }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="site-team"
       />
 
       <Section>

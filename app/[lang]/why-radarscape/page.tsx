@@ -34,6 +34,7 @@ export default async function WhyRadarscapePage({
         breadcrumbs={[{ key: "whyRadarscape", label: dict.nav.whyRadarscape }]}
         homeLabel={dict.nav.home}
         breadcrumbLabel={dict.a11y.breadcrumb}
+        photo="port"
       />
 
       {/* Strategic advantage */}

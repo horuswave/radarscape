@@ -1,13 +1,13 @@
 {
   "meta": {
     "site": {
-      "title": "Radarscape Mozambique — Engineering, Construction & Infrastructure Delivery",
-      "description": "Radarscape Mozambique Limitada is a Mozambican engineering, construction and infrastructure delivery partner for Oil & Gas, energy and strategic infrastructure — built on execution discipline, HSEQ alignment and commercial control."
+      "title": "Radarscape Mozambique | Engineering, Construction & Infrastructure Delivery",
+      "description": "Radarscape Mozambique Limitada is a Mozambican engineering, construction and infrastructure delivery partner for Oil & Gas, energy and strategic infrastructure, built on execution discipline, HSEQ alignment and commercial control."
     },
     "pages": {
       "home": {
         "title": "Mozambique's trusted execution partner",
-        "description": "Engineering, construction and infrastructure delivery in Mozambique — built for reliability, speed, safety and commercial discipline, with relevant exposure to the Afungi LNG corridor."
+        "description": "Engineering, construction and infrastructure delivery in Mozambique, built for reliability, speed, safety and commercial discipline, with relevant exposure to the Afungi LNG corridor."
       },
       "about": {
         "title": "About Radarscape",
@@ -19,7 +19,7 @@
       },
       "technology": {
         "title": "Technology, Systems & Controls",
-        "description": "Modern project systems and digital controls — BIM coordination and CCS Candy cost control — for planning quality, cost visibility and execution certainty."
+        "description": "Modern project systems and digital controls (BIM coordination and CCS Candy cost control) for planning quality, cost visibility and execution certainty."
       },
       "hseq": {
         "title": "HSEQ & Compliance Assurance",
@@ -35,7 +35,7 @@
       },
       "whyRadarscape": {
         "title": "Why Radarscape",
-        "description": "Relevant Oil & Gas exposure, strong local presence, a flexible commercial model and growing in-house technical depth — a credible local delivery partner in Mozambique."
+        "description": "Relevant Oil & Gas exposure, strong local presence, a flexible commercial model and growing in-house technical depth: a credible local delivery partner in Mozambique."
       },
       "contact": {
         "title": "Contact Radarscape",
@@ -62,7 +62,7 @@
     "contactCta": "Contact Us",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "homeLabel": "Radarscape — home",
+    "homeLabel": "Radarscape home",
     "localeLabel": "Change language",
     "menuTitle": "Menu",
     "navShort": {
@@ -100,7 +100,7 @@
         "href": "/capabilities/hseq"
       }
     ],
-    "legalLine": "Radarscape Mozambique Limitada — Class 7 ALVARÁ | Maputo, Mozambique",
+    "legalLine": "Radarscape Mozambique Limitada | Class 7 ALVARÁ | Maputo, Mozambique",
     "rights": "All rights reserved.",
     "credit": "Parent company: Macefield Ventures Mozambique Limitada."
   },
@@ -116,7 +116,7 @@
       "seeHowWeDeliver": "See how we deliver",
       "seeStrategicAdvantage": "See our strategic advantage",
       "partnerWithUs": "Partner with Radarscape",
-      "buildWithConfidence": "Build with confidence — contact us",
+      "buildWithConfidence": "Build with confidence, contact us",
       "backToCapabilities": "Back to capabilities",
       "seeInAction": "See this capability in action"
     }
@@ -125,7 +125,7 @@
     "hero": {
       "eyebrow": "Radarscape Mozambique Limitada",
       "title": "Mozambique's trusted execution partner for Oil & Gas, energy and infrastructure",
-      "subtitle": "Engineering, construction and infrastructure delivery — built for reliability, speed, safety and commercial discipline.",
+      "subtitle": "Engineering, construction and infrastructure delivery, built for reliability, speed, safety and commercial discipline.",
       "primaryCta": "View our capabilities",
       "secondaryCta": "Talk to us",
       "scrollHint": "Scroll to explore"
@@ -141,7 +141,7 @@
       },
       {
         "value": "Cabo Delgado",
-        "label": "Core operating area — Afungi LNG corridor"
+        "label": "Core operating area: Afungi LNG corridor"
       },
       {
         "value": "Class 7 ALVARÁ",
@@ -236,7 +236,7 @@
         "Strong local presence backed by scalable group and partner capability.",
         "A commitment to local content and long-term market presence in Mozambique."
       ],
-      "cta": "Build with confidence — contact us"
+      "cta": "Build with confidence, contact us"
     },
     "closing": {
       "eyebrow": "Let's build with confidence",
@@ -425,7 +425,7 @@
         }
       ]
     },
-    "cta": "See this capability in action — view our projects"
+    "cta": "See this capability in action, view our projects"
   },
   "technology": {
     "hero": {
@@ -441,7 +441,7 @@
       },
       {
         "icon": "document",
-        "title": "Digital estimating & cost control — CCS Candy",
+        "title": "Digital estimating & cost control (CCS Candy)",
         "body": "A specialised, contractor-focused software suite designed for construction and engineering estimation, planning and project control."
       }
     ],
@@ -487,7 +487,7 @@
     },
     "items": [
       {
-        "name": "Rehabilitation of housing infrastructure — Quitunda, Palma",
+        "name": "Rehabilitation of housing infrastructure, Quitunda, Palma",
         "caption": "Rehabilitation of housing infrastructure in the Quitunda resettlement area.",
         "tags": [
           "Civil",
@@ -519,7 +519,7 @@
         ]
       },
       {
-        "name": "5MW solar PV plant — Afungi",
+        "name": "5MW solar PV plant, Afungi",
         "caption": "Installation of a 5MW solar photovoltaic plant.",
         "tags": [
           "Electrical",
@@ -555,7 +555,7 @@
     "groupStrength": {
       "eyebrow": "Delivery platform & group strength",
       "title": "Broader depth through the group ecosystem",
-      "body": "Through its wider group ecosystem — including affiliated regional contractors and technical businesses — Radarscape benefits from broader delivery depth, cross-border expertise and additional execution capacity across engineering and infrastructure projects.",
+      "body": "Through its wider group ecosystem, including affiliated regional contractors and technical businesses, Radarscape benefits from broader delivery depth, cross-border expertise and additional execution capacity across engineering and infrastructure projects.",
       "points": [
         "Large-scale industrial and commercial projects",
         "Energy and power infrastructure",
@@ -635,7 +635,7 @@
         "Building long-term client partnerships and recurring project opportunities"
       ]
     },
-    "cta": "Partner with Radarscape — contact us"
+    "cta": "Partner with Radarscape, contact us"
   },
   "contact": {
     "hero": {
@@ -681,7 +681,7 @@
       ],
       "submit": "Send message",
       "sending": "Sending…",
-      "successTitle": "Thank you — your message has been received",
+      "successTitle": "Thank you. Your message has been received",
       "successBody": "A member of the Radarscape team will respond to your enquiry shortly. For urgent matters, please call the head office directly.",
       "sendAnother": "Send another message",
       "errorRequired": "Please complete this field.",
