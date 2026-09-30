@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
 import { primaryNav, routes, withLocale, type NavKey } from "@/lib/navigation";
 import { Logo } from "@/components/ui/logo";
-import { LocaleSwitcher } from "@/components/locale-switcher";
+import { LocaleSegmented, LocaleSwitcher } from "@/components/locale-switcher";
 import { Button } from "@/components/ui/button";
 import { Icon } from "@/components/ui/icon";
 
@@ -42,11 +42,24 @@ export function SiteHeader({ locale, dict }: Props) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Lock scroll while the mobile panel is open.
+  // While the mobile panel is open: lock page scroll, close on Escape, and
+  // close if the viewport grows past the breakpoint where the panel is hidden.
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
+    if (!menuOpen) return;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+    const desktop = window.matchMedia("(min-width: 80rem)");
+    const onResize = () => {
+      if (desktop.matches) setMenuOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    desktop.addEventListener("change", onResize);
     return () => {
       document.body.style.overflow = "";
+      document.removeEventListener("keydown", onKey);
+      desktop.removeEventListener("change", onResize);
     };
   }, [menuOpen]);
 
@@ -59,7 +72,9 @@ export function SiteHeader({ locale, dict }: Props) {
   return (
     <header
       className={`sticky top-0 z-50 transition-[background-color,border-color,box-shadow] duration-300 ${
-        scrolled || menuOpen
+        menuOpen
+          ? "border-b border-hairline bg-white"
+          : scrolled
           ? "border-b border-hairline bg-white/90 backdrop-blur-md shadow-[0_1px_0_rgba(7,24,36,0.04),0_10px_30px_-20px_rgba(7,24,36,0.35)]"
           : "border-b border-transparent bg-white/0"
       }`}
@@ -140,40 +155,57 @@ export function SiteHeader({ locale, dict }: Props) {
       </div>
 
       {/* Mobile panel */}
-      <div id="mobile-menu" hidden={!menuOpen} className="xl:hidden">
-        <div className="rs-container border-t border-hairline bg-white pb-8 pt-4">
-          <p className="rs-eyebrow mb-3">{header.menuTitle}</p>
-          <nav aria-label="Mobile" className="flex flex-col">
-            {primaryNav.map((key) => (
-              <Link
-                key={key}
-                href={withLocale(routes[key].path, locale)}
+      {/* Rendered as a fixed overlay below the header so it takes over the
+          page. The header drops its backdrop-blur while open, since a
+          backdrop-filter would make it the containing block for this layer. */}
+      <div
+        hidden={!menuOpen}
+        className="fixed inset-x-0 bottom-0 top-16 z-40 sm:top-20 xl:hidden"
+      >
+        <div
+          className="rs-backdrop-in absolute inset-0 bg-navy-900/60 backdrop-blur-sm"
+          onClick={() => setMenuOpen(false)}
+          aria-hidden
+        />
+        <div
+          id="mobile-menu"
+          className="rs-panel-in relative max-h-full overflow-y-auto overscroll-contain rounded-b-2xl bg-white shadow-(--shadow-lift)"
+        >
+          <div className="rs-container pb-8 pt-4">
+            <p className="rs-eyebrow mb-3">{header.menuTitle}</p>
+            <nav aria-label="Mobile" className="flex flex-col">
+              {primaryNav.map((key) => (
+                <Link
+                  key={key}
+                  href={withLocale(routes[key].path, locale)}
+                  onClick={() => setMenuOpen(false)}
+                  aria-current={isActive(key) ? "page" : undefined}
+                  className={`flex items-center justify-between border-b border-hairline py-3.5 text-base font-medium ${
+                    isActive(key) ? "text-navy-900" : "text-navy-700"
+                  }`}
+                >
+                  {nav[key]}
+                  <Icon name="arrowRight" size={18} className="text-amber-500" />
+                </Link>
+              ))}
+            </nav>
+            <div className="mt-6 flex flex-col gap-6">
+              <LocaleSegmented
+                locale={locale}
+                label={header.localeLabel}
+                onNavigate={() => setMenuOpen(false)}
+              />
+              <Button
+                href={withLocale(routes.contact.path, locale)}
+                variant="primary"
+                size="lg"
+                withArrow
+                className="w-full"
                 onClick={() => setMenuOpen(false)}
-                aria-current={isActive(key) ? "page" : undefined}
-                className={`flex items-center justify-between border-b border-hairline py-3.5 text-base font-medium ${
-                  isActive(key) ? "text-navy-900" : "text-navy-700"
-                }`}
               >
-                {nav[key]}
-                <Icon name="arrowRight" size={18} className="text-amber-500" />
-              </Link>
-            ))}
-          </nav>
-          <div className="mt-6 flex items-center justify-between">
-            <LocaleSwitcher
-              locale={locale}
-              label={header.localeLabel}
-              onNavigate={() => setMenuOpen(false)}
-            />
-            <Button
-              href={withLocale(routes.contact.path, locale)}
-              variant="primary"
-              size="md"
-              withArrow
-              onClick={() => setMenuOpen(false)}
-            >
-              {header.contactCta}
-            </Button>
+                {header.contactCta}
+              </Button>
+            </div>
           </div>
         </div>
       </div>

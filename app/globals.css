@@ -211,8 +211,28 @@
       transform: none;
     }
   }
+  /* Mobile menu overlay: dimmed backdrop + panel sliding down from the header. */
+  .rs-backdrop-in {
+    animation: rs-fade-in 0.25s ease-out both;
+  }
+  .rs-panel-in {
+    animation: rs-slide-down 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes rs-fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes rs-slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-12px);
+    }
+  }
   @media (prefers-reduced-motion: reduce) {
-    .rs-reveal {
+    .rs-reveal,
+    .rs-backdrop-in,
+    .rs-panel-in {
       animation: none;
     }
   }

@@ -123,3 +123,58 @@ export function LocaleSwitcher({
     </div>
   );
 }
+
+/**
+ * Mobile language picker: every locale visible as one segmented control, so
+ * switching is a single tap and nothing pops out of the menu panel.
+ */
+export function LocaleSegmented({
+  locale,
+  label,
+  onNavigate,
+}: {
+  locale: Locale;
+  label: string;
+  onNavigate?: () => void;
+}) {
+  const pathname = usePathname() || `/${locale}`;
+
+  return (
+    <nav aria-label={label}>
+      <p className="mb-2.5 flex items-center gap-1.5 font-display text-xs font-semibold tracking-wide text-muted">
+        <Icon name="compass" size={14} />
+        {label}
+      </p>
+      <ul className="grid grid-cols-3 gap-1 rounded-lg bg-sand-100 p-1">
+        {locales.map((l) => {
+          const active = l === locale;
+          return (
+            <li key={l}>
+              <Link
+                href={swapLocale(pathname, l)}
+                hrefLang={l}
+                lang={l}
+                aria-current={active ? "true" : undefined}
+                onClick={onNavigate}
+                className={`flex flex-col items-center rounded-md px-2 py-2 transition-colors ${
+                  active
+                    ? "bg-navy-800 text-white shadow-sm"
+                    : "text-navy-700 hover:bg-white"
+                }`}
+              >
+                <span className="font-display text-sm font-bold tracking-wide">
+                  {localeShortNames[l]}
+                </span>
+                <span
+                  className={`text-[0.7rem] ${active ? "text-navy-100" : "text-muted"}`}
+                >
+                  {localeNames[l]}
+                </span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
